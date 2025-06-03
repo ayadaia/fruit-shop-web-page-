@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+body{
+    background: linear-gradient(to bottom, #e1f8f4 100px, white 100px );
+}
+
+* {
+    
+    font-family: sans-serif;
+    
+}
+
+
+.nav {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 25px;
+    margin-left: 10px;
+    
+    
+
+}
+
+.nav:hover{
+           cursor:pointer
+}
+
+ul .nav:first-child{
+               margin-left:150px;
+               margin-right:350px;
+
+}
+
+
+        #send{
+            background-color: orangered;
+            color: white;
+            border: none;
+            padding: 10px 40px;
+        }
+
+        input[type="email"], input[type="phone number"]{
+            width: 90%;
+           height: 30px;
+           border: 0;
+           outline: 0;
+           border-bottom :1px solid lightgray;
+       }
+       input[type="text"], input[type="message"]{
+            width: 90%;
+           height: 30px;
+           border: 0;
+           outline: 0;
+           border-bottom :1px solid black;
+       }
+       .foot{
+    height: 200px;
+    width: 250px;
+ }
+ #Subscribe{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+ }
+#sub{
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgrey;
+    height: 20px;
+}
+#sub:hover{
+    border: 1px solid black;
+ }
+       
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <ul class="nav">
+        <li class="nav"><a href="home.html"><b><img src="images/logo.png" width="40" align="center">FRUITS SHOP</b></a></li>  
+        <li class="nav"><a href="home.html"> Home</a></li>
+        <li class="nav"><a href="fresh fruits.html">Fruits</a></li>
+        <li class="nav"><a href="our services.html">Services</a></li>
+       <li class="nav"><a href="contact us.html">Contact Us</a></li> 
+        <li class="nav"><a href="contact us.html"><img src="images/search.png" width="20"></a></li>
+      </ul><br><br><br>
+
+
+
+
+
+
+ <form action="save.html" method="get">  
+<table width="80%" align="center">
+    <tr colspan="2">
+        <td><font size="100"><b> Contact Us</b></font></td>
+    </tr>
+<tr>
+    <td><input type="text" placeholder="Name" name="user"></td>
+    <td rowspan="6"> <img src="images/orange-dish.png"  align="right"> </td>
+</tr>
+<tr > <td><input type="phone number" placeholder="Phone number" name="num"></td></tr>
+<tr > <td><input type="email" placeholder="Email" name="mail"></td></tr>
+<tr ><td><input type="message" placeholder="message" name="msg"></td></tr>
+<tr><td><input type="submit" value="SEND" id="send"></td></tr>
+
+</table>
+</form><br><br><br>
+
+<table align="center">
+    <tr>
+        <td>Fruits </td>
+        <td> Services</td>
+        <td> Lists</td>
+        <td> Follow Us</td>
+    
+    </tr>
+    <tr>
+        <td class="foot">randomised <br>words  which <br>don't look even <br> slightly <br> belivable. If you <br>are going to use <br> a passage of <br>Lorem Ipsum</td>
+        <td class="foot">randomised <br>words which <br>don't look even <br>slightly<br> belivable. If you <br>are going to use<br> a passage of <br>Lorem Ipsum</td>
+        <td class="foot">randomised <br>words which <br>don't look even <br>slightly <br>belivable. If you <br>are going to use <br>a passage of <br>Lorem Ipsum</td>
+        <td>
+            <table>
+                <tr> 
+                    <td><img src="images/fb.png"></td>
+                    <td> <img src="images/twitter.png" ></td>
+                    <td> <img src="images/linkedin.png" ></td>
+                    <td> <img src="images/instagram.png" ></td>
+                    
+                    
+                   </tr>
+                <tr> <td colspan="4">Subscribe Now </td></tr>
+                <tr> <td colspan="4" > <input type="text" id="sub"></td> </tr>
+                <tr > <td colspan="4"><input type="submit" value="Subscribe" id="Subscribe"></td> </tr>
+
+
+
+            </table>
+        </td>
+
+
+    </tr>
+
+
+</table>
+
+
+
+
+
+
+
+
+</body>
+</html>
