@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+.nav {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 25px;
+    margin-left: 10px;
+
+    
+    
+
+}
+
+.nav:hover{
+           cursor:pointer
+}
+
+ul .nav:first-child{
+               margin-left:150px;
+               margin-right:350px;
+            
+}
+
+
+body{
+    background: linear-gradient(to bottom, #e1f8f4 600px, white 100px );
+}
+
+* {
+    
+    font-family: sans-serif;
+    
+}
+ 
+#butt1{
+            border: none;
+            color: white;
+            padding: 10px 30px;
+            background-color: orangered;
+        }
+        #butt2{
+            border: none;
+            color: white;
+            padding: 10px 30px;
+            background-color: black;
+        }
+        
+        .Fruit{
+            list-style: none;
+            text-align: center;
+            border: 1px solid lightgrey; 
+            padding: 10%;
+            cursor: pointer;
+            border-radius: 3%;
+        }
+
+        .Fruit:hover {
+            border-top: 5px solid orangered;
+
+        }
+
+        #Read1{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            margin-left: 45%;
+            cursor: pointer;
+            
+        }
+
+
+        
+     #Read1:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+     }   
+
+
+     #buy1{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            cursor: pointer;
+            margin-left: 16%;
+            
+        }
+        #buy1:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+     }  
+
+     .container{
+        position: relative;
+        color: white;
+        display: inline-block;
+        
+
+       }
+       .centered{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 65px;
+        font-weight: bold;
+       }
+    
+        .client{
+            margin: auto;
+            display: block;
+            width: auto;
+            height: auto;
+        }
+
+        #send{
+            background-color: orangered;
+            color: white;
+            border: none;
+            padding: 10px 40px;
+        }
+
+        input[type="email"], input[type="phone number"]{
+            width: 90%;
+           height: 30px;
+           border: 0;
+           outline: 0;
+           border-bottom :1px solid lightgray;
+       }
+       input[type="text"], input[type="message"]{
+            width: 90%;
+           height: 30px;
+           border: 0;
+           outline: 0;
+           border-bottom :1px solid black;
+       }
+
+       .foot{
+    height: 200px;
+    width: 250px;
+ }
+ #Subscribe{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+ }
+ #sub{
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgrey;
+    height: 20px;
+ }
+ #sub:hover{
+    border: 1px solid black;
+ }
+    </style>
+    
+    
+</head>
+<body>
+    <ul class="nav">
+      <li class="nav"><a href="home.html"><b><img src="images/logo.png" width="40" align="center">FRUITS SHOP</b></a></li>  
+      <li class="nav"><a href="home.html"> Home</a></li>
+      <li class="nav"><a href="fresh fruits.html">Fruits</a></li>
+      <li class="nav"><a href="our services.html">Services</a></li>
+     <li class="nav"><a href="contact us.html">Contact Us</a></li> 
+      <li class="nav"><a href="contact us.html"><img src="images/search.png" width="20"></a></li>
+    </ul><br><br><br>
+   
+    <table align="center" class="Welcome" >
+        <tr >
+            <th width="400"><font size="300">Welcome to<br> Our Fruits Shop </font></th>
+            <td rowspan="2"> <img src="images/dish.png" width="500" height="300"> </td>
+        </tr>
+        <tr>
+            <td width="400">There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration
+                in some form, by injected humour, or randomised words which don't look even slightly belivable.
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table height="50">
+                    <tr>
+                        <td><input type="submit" id="butt1" value="SHOP NOW"></td>
+                        <td><input type="submit" id="butt2"  value="CONTACT US"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table> <br><br><br><br><br><br><br>
+
+      
+    <h1 align="center">Our Services </h1>
+    <p align="center"> There are many variations of passages of lorem Ipsum available, but the majority have </p>
+   
+    <table align="center"  width="900" height="300" cellspacing="10">
+        <tr>
+            <td><ul class="Fruit">
+                <li><img src="images/item1.png" width="50" ></li><br>
+                <li> <font color="hotpink">Orange</font></li><br>
+                <li>There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration
+                    in some form, by injected humour, or randomised words which don't look even slightly belivable.</li>
+            </ul>
+
+            </td>
+            <td><ul class="Fruit">
+                <li><img src="images/item2.png" width="50"></li><br>
+                <li><font color="hotpink">Graps</font></li><br>
+                <li>There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration
+                    in some form, by injected humour, or randomised words which don't look even slightly belivable.</li>
+            </ul> </td>
+
+            <td><ul class="Fruit">
+                <li><img src="images/item.png" width="50"></li><br>
+                <li> <font color="hotpink">Gauva</font></li><br>
+                <li>There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration
+                    in some form, by injected humour, or randomised words which don't look even slightly belivable.</li>
+            </ul>
+
+            </td>
+        </tr>
+    </table>
+    
+
+<input type="submit"  value="Read More" id="Read1"><br><br><br>
+
+
+<h1 align="center">Fresh Fruits</h1>
+<p align="center"> There are many variations of passages of lorem Ipsum available, but the majority have </p>
+
+<table  align="center" cellspacing="30" height="200">
+    <tr >
+        <td> <font size="50">Best Fresh Orange</font></td>
+        <td rowspan="2"> <img src="images/orange.png" width="200" height="100"> </td>
+    </tr>
+    <tr>
+        <td> but the majority have suffered alteration in some form, by injected humour, or randomised <br>words which don't look even slightly belivable.
+            if you are giong to use a passage of Lorem <br>Ipsum,you need to be
+        </td>
+    </tr>
+</table>
+
+<td><input type="submit" id="buy1" value="Buy NOW"></td>
+
+<table  align="center" cellspacing="50" height="200">
+    <tr >
+        <td> <font size="50">Best Fresh Grapes</font></td>
+        <td rowspan="2"> <img src="images/grapes.png" width="200" height="200"> </td>
+    </tr>
+    <tr>
+        <td> but the majority have suffered alteration in some form, by injected humour, or randomised <br>words which don't look even slightly belivable.
+            if you are giong to use a passage of Lorem <br>Ipsum,you need to be
+        </td>
+    </tr>
+</table>
+
+<td><input type="submit" id="buy1" value="Buy NOW"></td>
+
+<table  align="center" cellspacing="30" height="200">
+    <tr >
+        <td> <font size="50">Best Fresh Gauva</font></td>
+        <td rowspan="2"> <img src="images/gauva.png" width="200" height="100"> </td>
+    </tr>
+    <tr>
+        <td> but the majority have suffered alteration in some form, by injected humour, or randomised <br>words which don't look even slightly belivable.
+            if you are giong to use a passage of Lorem <br>Ipsum,you need to be
+        </td>
+    </tr>
+</table>
+
+<td><input type="submit" id="buy1" value="Buy NOW"></td><br><br><br><br>
+
+
+<div class="container">
+    <img src="images/tasty.png" width="100%"  height="auto" align="center"/>
+    <div class="centered"><p>VERY TASTY FRUITS</p></div>
+</div><br><br>
+<h1 align="center"> Testimonial</h1>
+<p align="center">There are many variations of passages of Lorem Ipsum available, but the majority have</p><br><br><br>
+
+<img src="images/client.png" class="client"/>
+
+<p  align="center"><font size="50px">Johnhex</font></p>
+<p align="center">  There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration
+    in some form, by injected humour,<br> or randomised words which don't look even slightly belivable. If you are <br> going to use a 
+passage of Lorem Ipsum, you need to be sure </p><br><br><br><br>
+
+<form action="save.html" method="get">
+<table width="80%" align="center">
+    <tr colspan="2">
+        <td><font size="50px"><b> Contact Us</b></font></td>
+    </tr>
+<tr>
+    <td><input type="text" placeholder="Name" name="user"></td>
+    <td rowspan="6"> <img src="images/orange-dish.png"  align="right"> </td>
+</tr>
+<tr > <td><input type="phone number" placeholder="Phone number" name="num"></td></tr>
+<tr > <td><input type="email" placeholder="Email" name="mail"></td></tr>
+<tr ><td><input type="message" placeholder="message" name="msg"></td></tr>
+<tr><td><input type="submit" value="SEND" id="send"></td></tr>
+</table><br><br><br><br>
+</form>
+
+
+<table align="center">
+    <tr>
+        <td>Fruits </td>
+        <td> Services</td>
+        <td> Lists</td>
+        <td> Follow Us</td>
+    
+    </tr>
+    <tr>
+        <td class="foot">randomised <br>words  which <br>don't look even <br> slightly <br> belivable. If you <br>are going to use <br> a passage of <br>Lorem Ipsum</td>
+        <td class="foot">randomised <br>words which <br>don't look even <br>slightly<br> belivable. If you <br>are going to use<br> a passage of <br>Lorem Ipsum</td>
+        <td class="foot">randomised <br>words which <br>don't look even <br>slightly <br>belivable. If you <br>are going to use <br>a passage of <br>Lorem Ipsum</td>
+        <td>
+            <table align="center">
+                <tr> 
+                    <td><img src="images/fb.png"></td>
+                    <td> <img src="images/twitter.png" ></td>
+                    <td> <img src="images/linkedin.png" ></td>
+                    <td> <img src="images/instagram.png" ></td>
+                    
+                    
+                   </tr>
+                <tr> <td colspan="4">Subscribe Now </td></tr>
+                <tr> <td colspan="4" > <input type="text" id="sub"></td> </tr>
+                <tr > <td colspan="4"><input type="submit" value="Subscribe" id="Subscribe"></td> </tr>
+                
+
+
+            </table>
+        </td>
+
+
+    </tr>
+
+
+</table><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
